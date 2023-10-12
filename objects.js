@@ -1,30 +1,39 @@
 const movies = [
     {
-        movieName: "500 Days of Summer",
-        movieStars: ["Joseph Gordon Levitt, Zooey Deschanel"],
-        movieGenre: "RomCom",
-        movieRating: "85%",
+        name: "500 Days of Summer",
+        actors: ["Joseph Gordon Levitt, Zooey Deschanel"],
+        genre: "RomCom",
+        rating: "85%",
         oscar: false
     }, {
-        movieName: "Superbad",
-        movieStars: ["Michael Cera, Jonah Hill, Christopher Mintz-Plasse"],
-        movieGenre: "Comedy",
-        movieRating: "88%",
+        name: "Superbad",
+        actors: ["Michael Cera, Jonah Hill, Christopher Mintz-Plasse"],
+        genre: "Comedy",
+        rating: "88%",
         oscar: false
     }, {
-        movieName: "Black Swan",
-        movieStars: ["Natalie Portman, Mila Kunis"],
-        movieGenre: "85",
-        movieRating: "85%",
+        name: "Black Swan",
+        actors: ["Natalie Portman, Mila Kunis"],
+        genre: "85",
+        rating: "85%",
         oscar: true
     }, {
-        movieName: "American Psycho",
-        movieStars: ["Christian Bale, Jared Leto, Williem Dafoe"],
-        movieGenre: "Thriller",
-        movieRating: "68%",
+        name: "American Psycho",
+        actors: ["Christian Bale, Jared Leto, Williem Dafoe"],
+        genre: "Thriller",
+        rating: "68%",
         oscar: false
     }
 ]
 
-movies.forEach((movies)=> console.log(movies.movieName));
+movies.forEach((movie)=> console.log(movie.name));
+
+
+const oscar = movies.filter((movie) => movie.oscar !== true)
+console.log(oscar)
+
+movies.forEach((movie)=> console.log(movie.name
+
+
+
 
