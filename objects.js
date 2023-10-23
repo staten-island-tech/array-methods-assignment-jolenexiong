@@ -14,7 +14,7 @@ const movies = [
     }, {
         movieName: "Black Swan",
         movieStars: ["Natalie Portman, Mila Kunis"],
-        movieGenre: "85",
+        movieGenre: "Psychological Thriller",
         movieRating: "85%",
         oscar: true
     }, {
